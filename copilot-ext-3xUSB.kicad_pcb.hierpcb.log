@@ -1,0 +1,67 @@
+Plugin v0.0.1 running on KiCad 7.0.8-7.0.8~ubuntu20.04.1 and Python 3.8.10 (default, May 26 2023, 14:05:08) 
+[GCC 9.4.0] on linux.
+Footprint R7 is not on a sheet, skipping...
+Footprint R1 is not on a sheet, skipping...
+Footprint R2 is not on a sheet, skipping...
+Footprint C1 is not on a sheet, skipping...
+Footprint D1 is not on a sheet, skipping...
+Footprint C4 is not on a sheet, skipping...
+Footprint U1 is not on a sheet, skipping...
+Footprint Q4 is not on a sheet, skipping...
+Footprint R10 is not on a sheet, skipping...
+Imported /home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb, with 52 footprints, 211 tracks, and 15 drawings.
+Footprint G*** is not on a sheet, skipping...
+ (+ PCB /home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: R7 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: R1 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: R2 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: C1 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: D1 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: C4 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: U1 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: Q4 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: R10 (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+Missing path: G*** (/home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb)
+PCB /home/bogdanov/workspace-work/baylibre/0_copilot/copilot-ext-3xUSB/copilot-ext-3xUSB/copilot-ext-3xUSB.kicad_pcb
+  /9256aba2: R10
+  /bbd3733a: D2
+  /af069f0a: H2
+  /f97d2243: U3
+  /e8a7ddbf: J8
+  /e0f7b026: H4
+  /a989d45d: Q2
+  /ddeab959: Q1
+  /2a8d6d89: R3
+  /9cfb72cf: H1
+  /abd3fe99: R8
+  /49c0e3c1: R12
+  /0a6088e4: Q6
+  /9490130a: U2
+  /89ad961a: C6
+  /63975892: Q4
+  /22af291a: U1
+  /19acadfa: D3
+  /5e7ab5c4: C4
+  /5358bd89: R5
+  /4342ebfd: R9
+  /5f9915eb: J7
+  /8d2f9b83: R6
+  /c540dd4f: D1
+  /cd9c3c41: C1
+  /66443054: C3
+  /7dd6f0d1: R2
+  /e6bac68b: J5
+  /84675da3: C5
+  /c75bf54a: R4
+  /d2927bf5: R1
+  /c60b0dbc: J6
+  /8e332544: R11
+  /dabe502a: Q5
+  /de2b821a: J3
+  /799ccad6: C2
+  /3bdeb6d7: R7
+  /42eda130: J1
+  /84167edf: Q3
+  /b8510402: H3
+  /78ac9495: J4
+  /1d193be6: J2
