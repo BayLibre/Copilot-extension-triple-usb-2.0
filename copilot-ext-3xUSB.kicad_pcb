@@ -170,7 +170,7 @@
 	(net 49 "/GPIO_JP_1")
 	(net 50 "/GPIO_JP_2")
 	(net 51 "/GPIO_JP_3")
-	(footprint "Resistor_SMD:R_1206_3216Metric"
+	(footprint "usb2-extension:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "01f53bb9-d452-4a9c-9b1e-60c0fdbd1c5e")
 		(at 111.36 72.76)
@@ -404,7 +404,7 @@
 			(pintype "passive")
 			(uuid "80a3a7eb-cf23-48ef-aea6-42c7552e132f")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -416,7 +416,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_0805_2012Metric"
+	(footprint "usb2-extension:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "02d91de0-194c-42e3-b859-9e5f7ae39b15")
 		(at 106.2325 87.12)
@@ -660,7 +660,7 @@
 			(pintype "passive")
 			(uuid "76d65cdb-18c5-40fc-8abe-e3e0fcc56692")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -672,7 +672,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm"
+	(footprint "usb2-extension:MountingHole_2.7mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "037a0dbf-14e6-4ce8-abf8-745f376fc23c")
@@ -789,7 +789,7 @@
 			(uuid "5138282b-1cdf-40f6-9204-41826136e207")
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-8"
+	(footprint "usb2-extension:SOT-23-8"
 		(layer "F.Cu")
 		(uuid "0862bba5-eed4-4e97-b11a-bf8f83e16fd4")
 		(at 117.88 98.375)
@@ -1102,7 +1102,7 @@
 			(pintype "passive")
 			(uuid "1ecc4bba-53af-4e08-952b-e4c5a0707f3e")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-8.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1114,7 +1114,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+	(footprint "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 		(layer "F.Cu")
 		(uuid "14f71a82-3199-45a5-855c-917fbe41cc28")
 		(at 150.45 100.584 180)
@@ -1492,7 +1492,7 @@
 			(pintype "passive")
 			(uuid "72441931-e795-480c-9b14-cb91bb19d199")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/usb-a-connector-on-plate-vertical-1.snapshot.3/USB-A 111 (vertical on plate).STEP"
+		(model "${KIPRJMOD}/packages3D/USB-A 111 (vertical on plate).STEP"
 			(offset
 				(xyz 1.3 -3.5 7.5)
 			)
@@ -1504,7 +1504,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm"
+	(footprint "usb2-extension:MountingHole_2.7mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "16e4a621-471c-4513-989d-fa76dc9ccdc4")
@@ -1621,7 +1621,7 @@
 			(uuid "cde622d2-40a3-44c4-86f5-50d497e80348")
 		)
 	)
-	(footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+	(footprint "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "1a6a9a42-5ab4-43cc-aa06-c06e2dc2a024")
 		(at 128.595 84.5 -90)
@@ -1971,7 +1971,7 @@
 			(pintype "passive")
 			(uuid "8f912daa-069d-4443-8498-5b8fbe8df9b4")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+		(model "${KIPRJMOD}/packages3D/SO-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1983,7 +1983,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+	(footprint "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "1fd200ed-a119-49f7-9a0a-3f70de193825")
 		(at 128.635 70.575 -90)
@@ -2333,7 +2333,7 @@
 			(pintype "passive")
 			(uuid "33039264-ca04-49aa-8ab0-bc34e49f5139")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+		(model "${KIPRJMOD}/packages3D/SO-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2345,7 +2345,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "28666b70-becc-4dfd-94c9-8f335aafd090")
 		(at 120.32 88.24 90)
@@ -2579,7 +2579,7 @@
 			(pintype "passive")
 			(uuid "ec206673-da8b-4107-b0c7-e391147cd6d6")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2591,7 +2591,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm"
+	(footprint "usb2-extension:MountingHole_2.7mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "29cc0444-3d1c-4a50-a944-664adfa61067")
@@ -2708,7 +2708,7 @@
 			(uuid "8fab833b-a850-4b69-81fc-8eccf08de6d9")
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "usb2-extension:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2dfd43a6-dff7-4c57-9cc7-381f11d531ad")
 		(at 114.1525 84.35 90)
@@ -2942,7 +2942,7 @@
 			(pintype "passive")
 			(uuid "adf36d08-f2bc-42d9-8da9-ef128c125f5e")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2954,7 +2954,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric"
+	(footprint "usb2-extension:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "2edadb0f-baff-4340-ade4-3435afc1d6c1")
 		(at 111.36 101.96)
@@ -3188,7 +3188,7 @@
 			(pintype "passive")
 			(uuid "c8f30c56-2bb3-48cd-a8bd-a33991040e36")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3200,7 +3200,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "305fb28a-7e18-41d2-b347-5b3572e07cf1")
 		(at 113.7 112.67 -90)
@@ -3549,7 +3549,7 @@
 			(pintype "passive")
 			(uuid "a32187e2-0c35-46ad-b089-666a6ac2f8e5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3561,7 +3561,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23"
+	(footprint "usb2-extension:SOT-23"
 		(layer "F.Cu")
 		(uuid "31216f39-4d0d-4543-82b3-b8182f824b77")
 		(at 110.9975 99.08 180)
@@ -3825,7 +3825,7 @@
 			(pintype "passive")
 			(uuid "3ad0f32e-08fa-49e8-911a-03fe8d78df6f")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3837,7 +3837,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-8"
+	(footprint "usb2-extension:SOT-23-8"
 		(layer "F.Cu")
 		(uuid "31fce35d-ad51-4963-9189-1f82f10a7614")
 		(at 117.88 84.24)
@@ -4150,7 +4150,7 @@
 			(pintype "passive")
 			(uuid "cd68d792-00cd-4d5b-93cf-685a0c6a3a2c")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-8.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4162,7 +4162,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "35c91343-6bae-4884-94ca-815fe0a4c5d5")
 		(at 116.84 102.56 90)
@@ -4408,7 +4408,7 @@
 			(pintype "passive")
 			(uuid "663fd2f4-de42-42df-8ae5-3129e513403c")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4420,7 +4420,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23"
+	(footprint "usb2-extension:SOT-23"
 		(layer "F.Cu")
 		(uuid "47553347-e7cd-4890-b4df-e80bff42c3ea")
 		(at 110.9975 69.88 180)
@@ -4684,7 +4684,7 @@
 			(pintype "passive")
 			(uuid "73d8da75-ca35-45bd-81ef-c15e64d54192")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4696,7 +4696,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-8"
+	(footprint "usb2-extension:SOT-23-8"
 		(layer "F.Cu")
 		(uuid "480136fb-7b64-4f58-9d2e-23984ece7ed3")
 		(at 117.88 69.86)
@@ -5009,7 +5009,7 @@
 			(pintype "passive")
 			(uuid "af62f32a-9d85-407b-bdba-6efa515e27a3")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-8.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5021,7 +5021,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_0805_2012Metric"
+	(footprint "usb2-extension:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4c150fce-ad8d-4641-ab83-006389eac6b7")
 		(at 106.21 101.96)
@@ -5265,7 +5265,7 @@
 			(pintype "passive")
 			(uuid "ab95ea32-27e1-41bd-abd6-5099e9d0f7aa")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5277,7 +5277,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4caa6598-813e-457b-b9b8-9c7998791c06")
 		(at 124.07 112.67 -90)
@@ -5626,7 +5626,7 @@
 			(pintype "passive")
 			(uuid "f082fb7c-644d-47a1-b95c-d0dc5610d26b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5638,7 +5638,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4d13549d-10bb-4f79-a271-3df7470cfe30")
 		(at 116.7375 73.970001 90)
@@ -5884,7 +5884,7 @@
 			(pintype "passive")
 			(uuid "60a97629-019a-40fb-aaed-ebf535b62804")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5896,7 +5896,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5584662c-a59a-41d3-8d1f-9d2f9667f964")
 		(at 120.18 102.59 90)
@@ -6130,7 +6130,7 @@
 			(pintype "passive")
 			(uuid "291231c8-1376-4234-b9a8-d0ad0f356573")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6142,7 +6142,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "usb2-extension:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5c2e1b68-41a2-46e8-94a6-d4fdbd66d87a")
 		(at 113.71 99.21 90)
@@ -6376,7 +6376,7 @@
 			(pintype "passive")
 			(uuid "857cecfd-cc23-4b72-8560-7e18da8beace")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6388,7 +6388,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+	(footprint "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 		(layer "F.Cu")
 		(uuid "75a926df-3d5a-4f56-b661-8965a260de2a")
 		(at 150.45 88.8145 180)
@@ -6766,7 +6766,7 @@
 			(pintype "passive")
 			(uuid "074615bf-0880-488a-a6ea-e9c2c57e32b1")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/usb-a-connector-on-plate-vertical-1.snapshot.3/USB-A 111 (vertical on plate).STEP"
+		(model "${KIPRJMOD}/packages3D/USB-A 111 (vertical on plate).STEP"
 			(offset
 				(xyz 1.3 -3.5 7.5)
 			)
@@ -6778,7 +6778,7 @@
 			)
 		)
 	)
-	(footprint "Logo_BayLibre:Logo_BayLibre"
+	(footprint "usb2-extension:Logo_BayLibre"
 		(layer "F.Cu")
 		(uuid "7ba83d00-d2b8-4184-98ed-6e4f9a43ddd7")
 		(at 138.639389 84.634638 90)
@@ -7145,7 +7145,7 @@
 			(uuid "101e5455-d7e5-4548-8a0c-ca0ccff5b148")
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7c336700-5986-44fc-bc46-52b6f6b336a0")
 		(at 134.44 112.67 -90)
@@ -7494,7 +7494,7 @@
 			(pintype "passive")
 			(uuid "99242a9e-08d8-431d-b18d-4521325fbd2a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7506,7 +7506,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7c757957-ce5e-46dc-8acc-7a4db2b0fd64")
 		(at 121.79 98.34 -90)
@@ -7740,7 +7740,7 @@
 			(pintype "passive")
 			(uuid "6f7ac513-2fae-46f7-bf4c-b72b0d5a1fbd")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7752,7 +7752,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_0805_2012Metric"
+	(footprint "usb2-extension:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "82e5e8fc-e411-4ca3-bdae-c089cbc72909")
 		(at 106.26 72.76)
@@ -7996,7 +7996,7 @@
 			(pintype "passive")
 			(uuid "37c99633-3ddc-4dea-a2ff-a6c3389b4d93")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8008,7 +8008,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "87d61749-859a-44aa-8052-586e37becaa4")
 		(at 114.69 73.97 90)
@@ -8254,7 +8254,7 @@
 			(pintype "passive")
 			(uuid "259dfd81-d03b-4c7c-b8d9-f4ba5261a581")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8266,7 +8266,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "92f239c5-1b2b-4387-88c2-efcbdf5aa53c")
 		(at 114.78 102.56 90)
@@ -8512,7 +8512,7 @@
 			(pintype "passive")
 			(uuid "2f5c1e17-7934-4314-bd7a-eddb28c6f66c")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8524,7 +8524,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b670b7ad-8302-4fc0-abdb-aa45f4740cc2")
 		(at 122.08 69.82 -90)
@@ -8758,7 +8758,7 @@
 			(pintype "passive")
 			(uuid "2b6e1dbb-a378-42cd-a98b-32c06388d5ee")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8770,7 +8770,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+	(footprint "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 		(layer "F.Cu")
 		(uuid "bb4aafae-df04-4b41-a786-abe491f5c00d")
 		(at 103.204 102.596 -90)
@@ -9056,7 +9056,7 @@
 			(remove_unused_layers no)
 			(net 27 "unconnected-(J5-CC1-PadA5)")
 			(pinfunction "CC1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c979a9d1-c075-48cd-a2a8-2a03fa764acc")
 		)
 		(pad "A6" thru_hole circle
@@ -9104,7 +9104,7 @@
 			(remove_unused_layers no)
 			(net 28 "unconnected-(J5-SBU1-PadA8)")
 			(pinfunction "SBU1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "424716ec-6398-4af6-a0a9-8695c8463769")
 		)
 		(pad "A9" thru_hole circle
@@ -9184,7 +9184,7 @@
 			(remove_unused_layers no)
 			(net 29 "unconnected-(J5-CC2-PadB5)")
 			(pinfunction "CC2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d0557910-c196-4b11-a1d1-deea0f9e945f")
 		)
 		(pad "B6" thru_hole circle
@@ -9232,7 +9232,7 @@
 			(remove_unused_layers no)
 			(net 30 "unconnected-(J5-SBU2-PadB8)")
 			(pinfunction "SBU2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b87be644-30a0-43f8-af22-a2d97e46c9f9")
 		)
 		(pad "B9" thru_hole circle
@@ -9331,7 +9331,7 @@
 			(pintype "passive")
 			(uuid "202ef41d-f3f0-4be2-aa6c-350f1a7182cb")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/USB4085-GF-A--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 3 -4.5 -0.3)
 			)
@@ -9343,7 +9343,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c45a4592-94e0-4ba0-9fdb-3600df106034")
 		(at 116.98 88.21 90)
@@ -9589,7 +9589,7 @@
 			(pintype "passive")
 			(uuid "b5aff2f8-1dee-4c70-a68a-8aa2b2e7481f")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9601,7 +9601,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c6c42b31-a352-4065-91a0-107944da51e8")
 		(at 122.08 84.2 -90)
@@ -9835,7 +9835,7 @@
 			(pintype "passive")
 			(uuid "1b53615c-4d54-4fc3-aac6-e8c8aa3d0bfe")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9847,7 +9847,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric"
+	(footprint "usb2-extension:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d2052264-5ce3-4e6c-ad4a-163d0fb41fbd")
 		(at 120.31 73.98 90)
@@ -10081,7 +10081,7 @@
 			(pintype "passive")
 			(uuid "c7b0e066-3d39-434b-826d-f87c9dbf4f9c")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10093,7 +10093,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+	(footprint "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 		(layer "F.Cu")
 		(uuid "d33057e4-39c1-49d2-8ee5-8f7f47655743")
 		(at 150.45 77.045 180)
@@ -10471,7 +10471,7 @@
 			(pintype "passive")
 			(uuid "2e6845f9-4ef2-4e5e-9a82-4f41395a8bb5")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/usb-a-connector-on-plate-vertical-1.snapshot.3/USB-A 111 (vertical on plate).STEP"
+		(model "${KIPRJMOD}/packages3D/USB-A 111 (vertical on plate).STEP"
 			(offset
 				(xyz 1.3 -3.5 7.5)
 			)
@@ -10483,7 +10483,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric"
+	(footprint "usb2-extension:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "dd28e546-eee1-4206-b257-911f557cd9ee")
 		(at 111.515 87.12)
@@ -10718,7 +10718,7 @@
 			(pintype "passive")
 			(uuid "87d45aaf-70c6-42c6-bb22-5cec3575ca4b")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10730,7 +10730,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23"
+	(footprint "usb2-extension:SOT-23"
 		(layer "F.Cu")
 		(uuid "e0f4acc4-901d-4aac-85c6-291b18fed94d")
 		(at 111.1525 84.24 180)
@@ -10994,7 +10994,7 @@
 			(pintype "passive")
 			(uuid "34b4692a-012d-432b-986c-e88865c9e4fa")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11006,7 +11006,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+	(footprint "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 		(layer "F.Cu")
 		(uuid "e4ec7213-bc32-4404-b26f-b3b92311749a")
 		(at 103.14 74.07 -90)
@@ -11292,7 +11292,7 @@
 			(remove_unused_layers no)
 			(net 19 "unconnected-(J3-CC1-PadA5)")
 			(pinfunction "CC1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "95ccfcc3-a3af-4e8e-894b-bf8d7888c54a")
 		)
 		(pad "A6" thru_hole circle
@@ -11340,7 +11340,7 @@
 			(remove_unused_layers no)
 			(net 20 "unconnected-(J3-SBU1-PadA8)")
 			(pinfunction "SBU1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "cab6b197-b819-439c-991e-f0da585e9e52")
 		)
 		(pad "A9" thru_hole circle
@@ -11420,7 +11420,7 @@
 			(remove_unused_layers no)
 			(net 21 "unconnected-(J3-CC2-PadB5)")
 			(pinfunction "CC2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e6344df6-330f-4cc8-aaeb-b9c6399853b0")
 		)
 		(pad "B6" thru_hole circle
@@ -11468,7 +11468,7 @@
 			(remove_unused_layers no)
 			(net 22 "unconnected-(J3-SBU2-PadB8)")
 			(pinfunction "SBU2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ad281551-47ba-4e54-ba47-feed9075b922")
 		)
 		(pad "B9" thru_hole circle
@@ -11567,7 +11567,7 @@
 			(pintype "passive")
 			(uuid "8bed8573-2f7d-431b-9983-e83fa442415e")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/USB4085-GF-A--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 3 -4.5 -0.3)
 			)
@@ -11579,7 +11579,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "usb2-extension:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e5b9512a-9eaa-4a15-92ea-83565aab5cb0")
 		(at 114.93 88.21 90)
@@ -11825,7 +11825,7 @@
 			(pintype "passive")
 			(uuid "36f7493b-11d3-4d4e-ba16-623f7089930e")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11837,7 +11837,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "usb2-extension:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e6883ebd-1eb8-42c6-8964-831b7cf708a6")
 		(at 113.71 70.01 90)
@@ -12071,7 +12071,7 @@
 			(pintype "passive")
 			(uuid "de8ce864-81d6-47af-904b-e75a2b6d9ec3")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12083,7 +12083,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+	(footprint "usb2-extension:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "ea2fb6c0-a6f8-4dc8-a57b-c94772ed0673")
 		(at 147.315 110.725 -90)
@@ -12600,7 +12600,7 @@
 			(pintype "passive")
 			(uuid "3f37eb50-e327-4621-815a-fb547c172ab4")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12612,7 +12612,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+	(footprint "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "ec9c0cc7-03ef-4f63-af25-4867f748af7f")
 		(at 128.365 99.075 -90)
@@ -12962,7 +12962,7 @@
 			(pintype "passive")
 			(uuid "40341033-120e-44c0-a5da-0ea155d7844e")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+		(model "${KIPRJMOD}/packages3D/SO-8_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12974,7 +12974,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm"
+	(footprint "usb2-extension:MountingHole_2.7mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "f20155e2-dc0d-40f6-8d9f-5395d4807d5d")
@@ -13091,7 +13091,7 @@
 			(uuid "53abf8ea-ae58-427d-a054-3619d7925698")
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+	(footprint "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 		(layer "F.Cu")
 		(uuid "fa83fb8d-b2b4-4ca1-a603-d896db27b9c9")
 		(at 103.14 88.372 -90)
@@ -13377,7 +13377,7 @@
 			(remove_unused_layers no)
 			(net 23 "unconnected-(J4-CC1-PadA5)")
 			(pinfunction "CC1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ba943892-fbe9-4913-9184-bef0cb6a539c")
 		)
 		(pad "A6" thru_hole circle
@@ -13425,7 +13425,7 @@
 			(remove_unused_layers no)
 			(net 24 "unconnected-(J4-SBU1-PadA8)")
 			(pinfunction "SBU1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0f0348bd-3eba-4dec-8d0d-9d737bf4ca8d")
 		)
 		(pad "A9" thru_hole circle
@@ -13505,7 +13505,7 @@
 			(remove_unused_layers no)
 			(net 25 "unconnected-(J4-CC2-PadB5)")
 			(pinfunction "CC2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8549b2bd-536b-4f58-996c-4252b0bdc198")
 		)
 		(pad "B6" thru_hole circle
@@ -13553,7 +13553,7 @@
 			(remove_unused_layers no)
 			(net 26 "unconnected-(J4-SBU2-PadB8)")
 			(pinfunction "SBU2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f18f7da4-5d48-4805-bc33-9a02a43fc69b")
 		)
 		(pad "B9" thru_hole circle
@@ -13652,7 +13652,7 @@
 			(pintype "passive")
 			(uuid "fe820f5b-3853-4177-82b4-aeee736bab34")
 		)
-		(model "/home/bogdanov/Hardware/projects/3d/USB4085-GF-A--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 3 -4.5 -0.3)
 			)
@@ -13664,7 +13664,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+	(footprint "usb2-extension:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right"
 		(layer "B.Cu")
 		(uuid "6423bf24-7ceb-4402-bed2-59f5c9c9dd3c")
 		(at 147.32 110.715 90)
@@ -14187,7 +14187,7 @@
 			(pintype "passive")
 			(uuid "84e67060-664b-4054-919d-3faee2608d0f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right.wrl"
+		(model "${KIPRJMOD}/packages3D/PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

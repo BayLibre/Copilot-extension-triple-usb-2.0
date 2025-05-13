@@ -5,22 +5,25 @@
 	(uuid "51f1329c-3b4c-49dd-b481-975314a2554f")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "usb2-extension:+5V"
+			(power)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 5.08 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,97 +66,49 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
-					(hide yes)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,99 +123,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "Library:BSS138"
+		(symbol "usb2-extension:BSS138"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -555,7 +420,7 @@
 				)
 			)
 		)
-		(symbol "Library:BUK7M27-80EX_1"
+		(symbol "usb2-extension:BUK7M27-80EX_1"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -956,7 +821,7 @@
 				)
 			)
 		)
-		(symbol "Library:C"
+		(symbol "usb2-extension:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -1092,7 +957,7 @@
 				)
 			)
 		)
-		(symbol "Library:Conn_01x06_Socket"
+		(symbol "usb2-extension:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1422,7 +1287,358 @@
 				)
 			)
 		)
-		(symbol "Library:LED"
+		(symbol "usb2-extension:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "usb2-extension:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "usb2-extension:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1591,7 +1807,7 @@
 				)
 			)
 		)
-		(symbol "Library:LM74502"
+		(symbol "usb2-extension:LM74502"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1798,7 +2014,7 @@
 				)
 			)
 		)
-		(symbol "Library:MountingHole"
+		(symbol "usb2-extension:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1880,7 +2096,7 @@
 				)
 			)
 		)
-		(symbol "Library:R"
+		(symbol "usb2-extension:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2001,7 +2217,7 @@
 				)
 			)
 		)
-		(symbol "Library:USB_A"
+		(symbol "usb2-extension:USB_A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2324,7 +2540,7 @@
 				)
 			)
 		)
-		(symbol "Library:USB_C_Receptacle_USB2.0"
+		(symbol "usb2-extension:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3007,222 +3223,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5194,7 +5194,7 @@
 		(uuid "fd896fdc-ee7c-4b5d-a53f-4d58c834c6b2")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 233.68 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5266,7 +5266,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BSS138")
+		(lib_id "usb2-extension:BSS138")
 		(at 240.03 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5293,7 +5293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "usb2-extension:SOT-23"
 			(at 245.11 276.225 0)
 			(effects
 				(font
@@ -5366,7 +5366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 154.94 341.63 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5438,7 +5438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LED")
+		(lib_id "usb2-extension:LED")
 		(at 250.19 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5465,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "usb2-extension:LED_0805_2012Metric"
 			(at 250.19 265.43 0)
 			(effects
 				(font
@@ -5532,7 +5532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:Conn_01x06_Socket")
+		(lib_id "usb2-extension:Conn_01x06_Socket")
 		(at 187.706 347.726 0)
 		(mirror y)
 		(unit 1)
@@ -5559,7 +5559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "usb2-extension:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 187.706 347.726 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LM74502")
+		(lib_id "usb2-extension:LM74502")
 		(at 187.96 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5646,7 +5646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "usb2-extension:SOT-23-8"
 			(at 187.96 118.11 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5758,7 +5758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 212.09 90)
 			(effects
 				(font
@@ -5834,7 +5834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 185.42 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5906,7 +5906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BUK7M27-80EX_1")
+		(lib_id "usb2-extension:BUK7M27-80EX_1")
 		(at 185.42 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5931,7 +5931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 			(at 187.325 182.88 0)
 			(effects
 				(font
@@ -6040,7 +6040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 233.68 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6067,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "usb2-extension:R_0603_1608Metric"
 			(at 231.902 132.08 90)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "usb2-extension:+5V")
 		(at 264.16 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6216,7 +6216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 242.57 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6288,7 +6288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:Conn_01x06_Socket")
+		(lib_id "usb2-extension:Conn_01x06_Socket")
 		(at 149.86 346.71 0)
 		(mirror y)
 		(unit 1)
@@ -6315,7 +6315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "usb2-extension:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 149.86 346.71 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 233.68 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6403,7 +6403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "usb2-extension:R_0603_1608Metric"
 			(at 231.902 300.99 90)
 			(effects
 				(font
@@ -6479,7 +6479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 259.08 265.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6504,7 +6504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "usb2-extension:R_1206_3216Metric"
 			(at 259.08 267.208 90)
 			(effects
 				(font
@@ -6579,7 +6579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "usb2-extension:+5V")
 		(at 154.94 346.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6652,7 +6652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "usb2-extension:+5V")
 		(at 264.16 265.43 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6725,7 +6725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 288.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6752,7 +6752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 288.29 90)
 			(effects
 				(font
@@ -6828,7 +6828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 170.688 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6855,7 +6855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 171.6532 118.11 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_A")
+		(lib_id "usb2-extension:USB_A")
 		(at 285.75 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6965,7 +6965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+		(property "Footprint" "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 			(at 289.56 194.31 0)
 			(effects
 				(font
@@ -7017,7 +7017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 185.42 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7089,7 +7089,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 152.4 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7161,7 +7161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BSS138")
+		(lib_id "usb2-extension:BSS138")
 		(at 240.03 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7188,7 +7188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "usb2-extension:SOT-23"
 			(at 245.11 107.315 0)
 			(effects
 				(font
@@ -7261,7 +7261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 139.7 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7288,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 140.6652 273.05 0)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 66.04 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7439,7 +7439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "usb2-extension:+5V")
 		(at 192.786 347.726 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7512,7 +7512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 242.57 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7584,7 +7584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_C_Receptacle_USB2.0")
+		(lib_id "usb2-extension:USB_C_Receptacle_USB2.0")
 		(at 66.04 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7609,7 +7609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 			(at 69.85 200.66 0)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 139.7 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7724,7 +7724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 140.6652 196.85 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 152.4 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7875,7 +7875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7902,7 +7902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 132.08 90)
 			(effects
 				(font
@@ -7978,7 +7978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 170.18 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8005,7 +8005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 171.1452 210.82 0)
 			(effects
 				(font
@@ -8090,7 +8090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 170.18 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8117,7 +8117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 171.1452 287.02 0)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8229,7 +8229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 300.99 90)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 259.08 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8330,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "usb2-extension:R_1206_3216Metric"
 			(at 259.08 191.008 90)
 			(effects
 				(font
@@ -8405,7 +8405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 259.588 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8430,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "usb2-extension:R_1206_3216Metric"
 			(at 259.588 98.298 90)
 			(effects
 				(font
@@ -8505,7 +8505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LM74502")
+		(lib_id "usb2-extension:LM74502")
 		(at 187.96 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8531,7 +8531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "usb2-extension:SOT-23-8"
 			(at 187.96 210.82 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:MountingHole")
+		(lib_id "usb2-extension:MountingHole")
 		(at 162.306 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8643,7 +8643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "usb2-extension:MountingHole_2.7mm"
 			(at 162.306 365.76 0)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "usb2-extension:+5V")
 		(at 264.668 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8759,7 +8759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(lib_id "usb2-extension:Conn_02x03_Odd_Even")
 		(at 292.1 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8784,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 			(at 292.1 228.6 0)
 			(effects
 				(font
@@ -8839,7 +8839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 285.75 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8905,7 +8905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 233.68 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8977,7 +8977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 233.68 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9004,7 +9004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "usb2-extension:R_0603_1608Metric"
 			(at 231.902 224.79 90)
 			(effects
 				(font
@@ -9080,7 +9080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:MountingHole")
+		(lib_id "usb2-extension:MountingHole")
 		(at 162.306 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9107,7 +9107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "usb2-extension:MountingHole_2.7mm"
 			(at 162.306 374.65 0)
 			(effects
 				(font
@@ -9150,7 +9150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BUK7M27-80EX_1")
+		(lib_id "usb2-extension:BUK7M27-80EX_1")
 		(at 185.42 264.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9175,7 +9175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 			(at 187.325 259.08 0)
 			(effects
 				(font
@@ -9284,7 +9284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:MountingHole")
+		(lib_id "usb2-extension:MountingHole")
 		(at 182.626 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9311,7 +9311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "usb2-extension:MountingHole_2.7mm"
 			(at 182.626 365.76 0)
 			(effects
 				(font
@@ -9354,7 +9354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LED")
+		(lib_id "usb2-extension:LED")
 		(at 250.19 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9381,7 +9381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "usb2-extension:LED_0805_2012Metric"
 			(at 250.19 189.23 0)
 			(effects
 				(font
@@ -9448,7 +9448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 66.04 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9514,7 +9514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 137.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9586,7 +9586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 67.31 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9652,7 +9652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 287.274 280.416 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9718,7 +9718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(lib_id "usb2-extension:Conn_02x03_Odd_Even")
 		(at 294.64 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9743,7 +9743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 			(at 294.64 137.16 0)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LED")
+		(lib_id "usb2-extension:LED")
 		(at 250.19 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9825,7 +9825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "usb2-extension:LED_0805_2012Metric"
 			(at 250.19 96.52 0)
 			(effects
 				(font
@@ -9892,7 +9892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_A")
+		(lib_id "usb2-extension:USB_A")
 		(at 285.75 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9917,7 +9917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+		(property "Footprint" "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 			(at 289.56 102.87 0)
 			(effects
 				(font
@@ -9969,7 +9969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 285.75 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10035,7 +10035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10062,7 +10062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 224.79 90)
 			(effects
 				(font
@@ -10138,7 +10138,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 139.7 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10210,7 +10210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 152.4 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10282,7 +10282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(lib_id "usb2-extension:Conn_02x03_Odd_Even")
 		(at 293.624 304.546 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10307,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "usb2-extension:PinHeader_2x03_P2.54mm_Vertical"
 			(at 293.624 304.546 0)
 			(effects
 				(font
@@ -10362,7 +10362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:C")
+		(lib_id "usb2-extension:C")
 		(at 137.16 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10389,7 +10389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "usb2-extension:C_0805_2012Metric"
 			(at 138.1252 104.14 0)
 			(effects
 				(font
@@ -10474,7 +10474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
+		(lib_id "usb2-extension:R")
 		(at 152.4 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10501,7 +10501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "usb2-extension:R_0805_2012Metric"
 			(at 150.622 119.38 90)
 			(effects
 				(font
@@ -10577,7 +10577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 139.7 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10649,7 +10649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 233.68 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10715,7 +10715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BSS138")
+		(lib_id "usb2-extension:BSS138")
 		(at 240.03 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10742,7 +10742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "usb2-extension:SOT-23"
 			(at 245.11 200.025 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 185.42 304.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10887,7 +10887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:BUK7M27-80EX_1")
+		(lib_id "usb2-extension:BUK7M27-80EX_1")
 		(at 185.42 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10912,7 +10912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "usb2-extension:SO-8_3.9x4.9mm_P1.27mm"
 			(at 187.325 90.17 0)
 			(effects
 				(font
@@ -11021,7 +11021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_C_Receptacle_USB2.0")
+		(lib_id "usb2-extension:USB_C_Receptacle_USB2.0")
 		(at 66.04 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11046,7 +11046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -11134,7 +11134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:MountingHole")
+		(lib_id "usb2-extension:MountingHole")
 		(at 182.626 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11161,7 +11161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "usb2-extension:MountingHole_2.7mm"
 			(at 182.626 374.65 0)
 			(effects
 				(font
@@ -11204,7 +11204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_C_Receptacle_USB2.0")
+		(lib_id "usb2-extension:USB_C_Receptacle_USB2.0")
 		(at 67.31 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11229,7 +11229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "usb2-extension:USB_C_Receptacle_GCT_USB4085"
 			(at 71.12 278.13 0)
 			(effects
 				(font
@@ -11317,7 +11317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:USB_A")
+		(lib_id "usb2-extension:USB_A")
 		(at 287.274 270.256 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11342,7 +11342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
+		(property "Footprint" "usb2-extension:USB_A_Wuerth_614004134726_Horizontal"
 			(at 291.084 271.526 0)
 			(effects
 				(font
@@ -11394,7 +11394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 242.57 280.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11466,7 +11466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "usb2-extension:GND")
 		(at 192.786 342.646 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11538,7 +11538,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:LM74502")
+		(lib_id "usb2-extension:LM74502")
 		(at 187.96 287.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11564,7 +11564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "usb2-extension:SOT-23-8"
 			(at 187.96 287.02 0)
 			(effects
 				(font

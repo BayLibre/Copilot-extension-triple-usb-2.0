@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "usb2-extension")(type "KiCad")(uri "${KIPRJMOD}/usb2-extension.pretty")(options "")(descr ""))
+)
