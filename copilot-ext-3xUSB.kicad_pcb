@@ -14380,7 +14380,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Chan 3\nFit 1-2: GPIO1\nFit 3-4: GPIO2 \nFit 5-6: GPIO3"
+	(gr_text "Chan 3\nFit 5-6: GPIO3\nFit 3-4: GPIO2 \nFit 1-2: GPIO1"
 		(at 128.944 107.976 270)
 		(layer "B.SilkS" knockout)
 		(uuid "15e36e2a-d410-48b6-a83b-041d18c513b3")
@@ -14392,7 +14392,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Chan 2\nFit 1-2: GPIO1\nFit 3-4: GPIO2 \nFit 5-6: GPIO3"
+	(gr_text "Chan 2\nFit 5-6: GPIO3\nFit 3-4: GPIO2 \nFit 1-2: GPIO1"
 		(at 118.544 107.996 270)
 		(layer "B.SilkS" knockout)
 		(uuid "1e35d5e2-58fe-4707-9d8a-02d77f36cb52")
@@ -14577,7 +14577,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Chan 1\nFit 1-2: GPIO1\nFit 3-4: GPIO2 \nFit 5-6: GPIO3"
+	(gr_text "Chan 1\nFit 5-6: GPIO3\nFit 3-4: GPIO2 \nFit 1-2: GPIO1"
 		(at 108.179 108 270)
 		(layer "B.SilkS" knockout)
 		(uuid "9f52edaf-400d-4ded-9e60-84377c6a92f1")
