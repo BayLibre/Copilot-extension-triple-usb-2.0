@@ -527,7 +527,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers/",
-      "pos_files": "",
+      "pos_files": "Assembly/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
