@@ -5374,7 +5374,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
+		(property "MPN" "BSS138P,215"
 			(at 240.03 274.32 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
+		(property "MPN" "150080SS75000"
 			(at 250.19 265.43 0)
 			(effects
 				(font
@@ -5620,6 +5620,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.706 347.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1241152-6"
 			(at 187.706 347.726 0)
 			(effects
 				(font
@@ -5724,7 +5733,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
+		(property "MPN" "LM74502DDFR"
 			(at 187.96 118.11 0)
 			(effects
 				(font
@@ -5845,7 +5854,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
+		(property "MPN" "100K 1% 0805"
 			(at 152.4 212.09 0)
 			(effects
 				(font
@@ -6012,15 +6021,6 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 185.42 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.mouser.bg/ProductDetail/Diodes-Incorporated/DMT6013LSS-13?qs=gZXFycFWdANFoYJxw%252BbZCA%3D%3D"
 			(at 185.42 187.96 90)
 			(effects
@@ -6040,6 +6040,15 @@
 			)
 		)
 		(property "REPL-val" "Si4190BDY-T1-GE3"
+			(at 185.42 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMT6013LSS-13"
 			(at 185.42 187.96 90)
 			(effects
 				(font
@@ -6154,7 +6163,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
+		(property "MPN" "10K 1% 0603"
 			(at 233.68 132.08 0)
 			(effects
 				(font
@@ -6384,6 +6393,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "10129380-906001ALF"
+			(at 149.86 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8350e42-f1bc-4a27-acf7-26d6559860e1")
 		)
@@ -6490,7 +6508,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
+		(property "MPN" "10K 1% 0603"
 			(at 233.68 300.99 0)
 			(effects
 				(font
@@ -6590,8 +6608,8 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 259.08 265.43 0)
+		(property "MPN" "240 5% 1206"
+			(at 259.08 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
+		(property "MPN" "100K 1% 0805"
 			(at 152.4 288.29 0)
 			(effects
 				(font
@@ -6951,7 +6969,7 @@
 				(justify right)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
+		(property "MPN" "220n 35V X7R 0805"
 			(at 170.688 114.3 0)
 			(effects
 				(font
@@ -7016,7 +7034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 289.56 194.31 0)
 			(effects
 				(font
@@ -7026,6 +7044,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "614004134726"
 			(at 285.75 193.04 0)
 			(effects
 				(font
@@ -7269,7 +7296,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
+		(property "MPN" "BSS138P,215"
 			(at 240.03 105.41 0)
 			(effects
 				(font
@@ -7366,7 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 143.51 271.145 0)
 			(effects
 				(font
@@ -7384,7 +7411,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
+		(property "MPN" "100n 35V X7R 0805"
 			(at 139.7 269.24 0)
 			(effects
 				(font
@@ -7678,6 +7705,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " USB4085-GF-A"
+			(at 66.04 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "de6f02c1-9a86-4f32-a029-86f16b7fcb98")
 		)
@@ -7802,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 143.51 194.945 0)
 			(effects
 				(font
@@ -7820,7 +7856,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
+		(property "MPN" "100n 35V X7R 0805"
 			(at 139.7 193.04 0)
 			(effects
 				(font
@@ -7989,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
+		(property "MPN" "2.4K 1% 0805"
 			(at 152.4 132.08 0)
 			(effects
 				(font
@@ -8101,7 +8137,7 @@
 				(justify right)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
+		(property "MPN" "220n 35V X7R 0805"
 			(at 170.18 207.01 0)
 			(effects
 				(font
@@ -8213,7 +8249,7 @@
 				(justify right)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
+		(property "MPN" "220n 35V X7R 0805"
 			(at 170.18 283.21 0)
 			(effects
 				(font
@@ -8316,7 +8352,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
+		(property "MPN" "2.4K 1% 0805"
 			(at 152.4 300.99 0)
 			(effects
 				(font
@@ -8416,8 +8452,8 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 259.08 189.23 0)
+		(property "MPN" "240 5% 1206"
+			(at 259.08 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,8 +8552,8 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 259.588 96.52 0)
+		(property "MPN" "240 5% 1206"
+			(at 259.588 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8645,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
+		(property "MPN" "LM74502DDFR"
 			(at 187.96 210.82 0)
 			(effects
 				(font
@@ -8845,6 +8881,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 292.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10129382-906003BLF"
 			(at 292.1 228.6 0)
 			(effects
 				(font
@@ -9091,7 +9136,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
+		(property "MPN" "10K 1% 0603"
 			(at 233.68 224.79 0)
 			(effects
 				(font
@@ -9256,15 +9301,6 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 185.42 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.mouser.bg/ProductDetail/Diodes-Incorporated/DMT6013LSS-13?qs=gZXFycFWdANFoYJxw%252BbZCA%3D%3D"
 			(at 185.42 264.16 90)
 			(effects
@@ -9284,6 +9320,15 @@
 			)
 		)
 		(property "REPL-val" "Si4190BDY-T1-GE3"
+			(at 185.42 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMT6013LSS-13"
 			(at 185.42 264.16 90)
 			(effects
 				(font
@@ -9459,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
+		(property "MPN" "150080SS75000"
 			(at 250.19 189.23 0)
 			(effects
 				(font
@@ -9812,6 +9857,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "10129382-906003BLF"
+			(at 294.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "91f2ed87-2d4b-4963-bd9c-2bc80b29cd31")
 		)
@@ -9903,7 +9957,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
+		(property "MPN" "150080SS75000"
 			(at 250.19 96.52 0)
 			(effects
 				(font
@@ -9968,7 +10022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 289.56 102.87 0)
 			(effects
 				(font
@@ -9978,6 +10032,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "614004134726"
 			(at 285.75 101.6 0)
 			(effects
 				(font
@@ -10149,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
+		(property "MPN" "2.4K 1% 0805"
 			(at 152.4 224.79 0)
 			(effects
 				(font
@@ -10376,6 +10439,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "10129382-906003BLF"
+			(at 293.624 304.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dceec27e-5a67-4925-9e35-5663c577c00a")
 		)
@@ -10467,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 140.97 102.235 0)
 			(effects
 				(font
@@ -10485,7 +10557,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
+		(property "MPN" "100n 35V X7R 0805"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -10588,7 +10660,7 @@
 				(justify left)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
+		(property "MPN" "100K 1% 0805"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -10823,7 +10895,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
+		(property "MPN" "BSS138P,215"
 			(at 240.03 198.12 0)
 			(effects
 				(font
@@ -10993,15 +11065,6 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 185.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "URL" "https://www.mouser.bg/ProductDetail/Diodes-Incorporated/DMT6013LSS-13?qs=gZXFycFWdANFoYJxw%252BbZCA%3D%3D"
 			(at 185.42 95.25 90)
 			(effects
@@ -11021,6 +11084,15 @@
 			)
 		)
 		(property "REPL-val" "Si4190BDY-T1-GE3"
+			(at 185.42 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMT6013LSS-13"
 			(at 185.42 95.25 90)
 			(effects
 				(font
@@ -11107,6 +11179,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " USB4085-GF-A"
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -11298,6 +11379,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " USB4085-GF-A"
+			(at 67.31 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "88d2dfb5-99eb-48f2-b0cd-ff74996f5a63")
 		)
@@ -11393,7 +11483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 291.084 271.526 0)
 			(effects
 				(font
@@ -11403,6 +11493,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.274 270.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "614004134726"
 			(at 287.274 270.256 0)
 			(effects
 				(font
@@ -11642,7 +11741,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
+		(property "MPN" "LM74502DDFR"
 			(at 187.96 287.02 0)
 			(effects
 				(font

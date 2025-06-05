@@ -225,18 +225,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91c27663-13bb-4e2a-aafd-a0133e956f11")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC1206JR-07240RL"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -261,9 +249,22 @@
 				)
 			)
 		)
+		(property "MPN" "240 5% 1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6414e0a3-de83-44de-8a06-32d9d4d209e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9256aba2-fa0d-43c7-a7f5-dd7dece598d7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -460,18 +461,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39a69402-dbef-43ab-9413-2b2626899a2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "150080SS75000"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -484,9 +473,22 @@
 				)
 			)
 		)
+		(property "MPN" "150080SS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "228e8151-cac4-44c2-b3e7-757d62dcc6d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bbd3733a-e3dd-4834-b630-cf0edb7c093c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -709,7 +711,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/af069f0a-7bd2-4677-ae85-eddb52a3d140")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
@@ -806,18 +808,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24f8023c-eabe-477c-8e14-b0861f73ae57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "LM74502DDFR"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -830,8 +820,21 @@
 				)
 			)
 		)
+		(property "MPN" "LM74502DDFR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "115a6fb2-823e-4ad4-b301-037678cb490c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f97d2243-acb2-4534-845e-bef138e35241")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1096,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1120,9 +1123,22 @@
 				)
 			)
 		)
+		(property "MPN" "614004134726"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9629acfd-d3b6-4351-8c6f-552cdf2a7eae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/e8a7ddbf-f63a-4336-aa57-e1a1ebaada06")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1463,7 +1479,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/e0f7b026-6be0-4df0-93ab-b56cb35103c7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
@@ -1560,18 +1576,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 44.095 213.095 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b16a7755-420a-4418-9444-20c84c8554a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "DMT6013LSS"
 			(at 44.095 213.095 0)
 			(layer "F.Fab")
@@ -1620,9 +1624,22 @@
 				)
 			)
 		)
+		(property "MPN" "DMT6013LSS-13"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffc1cdd-e2a0-439c-9497-a95900a26752")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LFPAK33*")
 		(path "/3af8262c-9b31-48a3-b9c2-016ebb16d973")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1911,18 +1928,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 58.06 199.21 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df733673-a89f-4397-8d0f-f84a9d61152c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "DMT6013LSS"
 			(at 58.06 199.21 0)
 			(layer "F.Fab")
@@ -1971,9 +1976,22 @@
 				)
 			)
 		)
+		(property "MPN" "DMT6013LSS-13"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbdc560f-063d-4f33-a1cd-624130661db0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LFPAK33*")
 		(path "/ddeab959-6582-45ed-9722-23f551cff700")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2262,18 +2280,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
-			(at 208.56 -32.08 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "957f190f-2993-4c58-af41-2187af7c38aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RMCF0805FT100K"
 			(at 208.56 -32.08 0)
 			(layer "F.Fab")
@@ -2298,9 +2304,22 @@
 				)
 			)
 		)
+		(property "MPN" "100K 1% 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69d83d21-ac56-42b3-b1f8-c59cb680d42a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2a8d6d89-864d-48b1-ac60-0976c84b32a0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2501,7 +2520,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/9cfb72cf-d67f-44b6-8ac5-9860d88c14ce")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
@@ -2598,18 +2617,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
-			(at 198.5025 -29.8025 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6939aaa-bd52-4a24-a0b3-de6c206a7f57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RNCP0603FTD10K0"
 			(at 198.5025 -29.8025 0)
 			(layer "F.Fab")
@@ -2634,9 +2641,22 @@
 				)
 			)
 		)
+		(property "MPN" "10K 1% 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e59ba7a-889e-4caf-a09f-b6b8346705e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/abd3fe99-bd07-4a08-a7f0-8d39f94f779c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2833,18 +2853,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bf53863-228b-45d7-b77c-3491f9dadd49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC1206JR-07240RL"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -2869,9 +2877,22 @@
 				)
 			)
 		)
+		(property "MPN" "240 5% 1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c0a9739-17f1-4d48-96ef-49208534bd45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/49c0e3c1-27a5-4597-b9ed-8f539f0b3163")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3070,9 +3091,22 @@
 				)
 			)
 		)
+		(property "MPN" "10129382-906003BLF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2243afdc-6fcd-44b2-a265-be5f7db11cbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c41a7ce2-68cb-4e74-a8ef-d846db1911b7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3387,18 +3421,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
-			(at 221.995 198.16 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b424ee2-d089-4897-ab38-65600971ef28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "BSS138P,215"
 			(at 221.995 198.16 0)
 			(layer "F.Fab")
@@ -3411,9 +3433,22 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138P,215"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44bea99c-1e5c-4b18-9caf-f3220423ba5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/0a6088e4-50ca-4850-912d-62f646b2e67c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3652,18 +3687,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a94201a0-2c0b-4188-aa17-2b2b4e4c430d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "LM74502DDFR"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -3676,8 +3699,21 @@
 				)
 			)
 		)
+		(property "MPN" "LM74502DDFR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca8a024-c238-4041-9880-640e285672f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9490130a-c64c-4d1e-b021-3ee6ad118dcb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3966,18 +4002,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
-			(at 219.4 -14.28 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4692bf0-7448-45c0-8040-d506804ab609")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B224KBFNNNE"
 			(at 219.4 -14.28 0)
 			(layer "F.Fab")
@@ -4014,9 +4038,22 @@
 				)
 			)
 		)
+		(property "MPN" "220n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e95e62aa-9376-4af9-ad36-0961bd854eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/89ad961a-4af3-4289-8a1a-a5203c6fa8ca")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4213,18 +4250,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
-			(at 221.995 139.76 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03766a6d-a60f-45eb-9d22-8384a34d9713")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "BSS138P,215"
 			(at 221.995 139.76 0)
 			(layer "F.Fab")
@@ -4237,9 +4262,22 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138P,215"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d443237-115f-48c9-b053-653077048a5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/63975892-84bc-4872-a863-99d23e4a3228")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4478,18 +4516,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "LM74502DDFR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e46391a-c886-444b-974d-6c5c7f7b58e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "LM74502DDFR"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -4502,8 +4528,21 @@
 				)
 			)
 		)
+		(property "MPN" "LM74502DDFR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ec65c6-f37c-468a-8e48-b4a30626b875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22af291a-5c62-4354-96f7-a9c7b542cb39")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4792,18 +4831,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9dfa7473-38a8-4477-b09a-e6c6e04fc167")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "150080SS75000"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -4816,9 +4843,22 @@
 				)
 			)
 		)
+		(property "MPN" "150080SS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "652bb8ae-2458-409d-8421-5c0ef377b43f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/19acadfa-4969-4cac-84ad-49a7bd52b0de")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5039,9 +5079,22 @@
 				)
 			)
 		)
+		(property "MPN" "10129382-906003BLF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd8cbca7-de0e-4070-bc72-9321ef744b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/a6a2645b-efd9-430c-8c9d-6e6afdb22813")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5356,18 +5409,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
-			(at 190.707501 -42.767499 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39f61c98-13c5-4061-9574-0ada20eef255")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B224KBFNNNE"
 			(at 190.707501 -42.767499 0)
 			(layer "F.Fab")
@@ -5404,9 +5445,22 @@
 				)
 			)
 		)
+		(property "MPN" "220n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "797ec5ec-0f19-4868-9315-82942c9c0090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5e7ab5c4-7de0-4829-a924-a978a2de6e7a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5603,18 +5657,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
-			(at 222.77 -17.59 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cbde0af-6924-42ef-8b61-a525e3a05b64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RMCF0805FT100K"
 			(at 222.77 -17.59 0)
 			(layer "F.Fab")
@@ -5639,9 +5681,22 @@
 				)
 			)
 		)
+		(property "MPN" "100K 1% 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2090a1b1-9f22-4e8f-acd2-073e307a951b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5358bd89-fdf2-4be3-ab86-cacaa9b183e5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5838,18 +5893,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
-			(at 212.92 -14.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b74d1c92-4415-4b7d-98cb-f604b102eef4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RNCP0603FTD10K0"
 			(at 212.92 -14.5 0)
 			(layer "F.Fab")
@@ -5874,9 +5917,22 @@
 				)
 			)
 		)
+		(property "MPN" "10K 1% 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb9662a0-5d4b-433b-997c-df9ced1e36ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4342ebfd-50b5-41bc-8a62-e45d04bc5cb4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6049,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6073,9 +6129,22 @@
 				)
 			)
 		)
+		(property "MPN" "614004134726"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f7263ef-f54b-4af9-a86c-f64b45c24ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/5f9915eb-9663-4b81-baea-e44f10a3156e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6770,9 +6839,22 @@
 				)
 			)
 		)
+		(property "MPN" "10129382-906003BLF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3b482d7-7bcf-4749-a2ae-27121d4b813f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/cca69526-b9fb-4478-8fe5-99d2007916a1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7087,18 +7169,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
-			(at 23.45 220.13 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af7d3088-d3e7-43ff-9875-70839be41716")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC0805FR-072K4L"
 			(at 23.45 220.13 0)
 			(layer "F.Fab")
@@ -7123,9 +7193,22 @@
 				)
 			)
 		)
+		(property "MPN" "2.4K 1% 0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ca44615-8cfc-4c35-8e40-c5e40eeba57f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8d2f9b83-c312-4d25-ab6f-4d2390bfd2d8")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7322,18 +7405,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "150080SS75000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89181c61-8374-4d17-98b4-7d067bda2da7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "150080SS75000"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -7346,9 +7417,22 @@
 				)
 			)
 		)
+		(property "MPN" "150080SS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fff7e4ff-d51e-4a7d-8050-a84980e2fce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c540dd4f-9dc7-4a5b-96f2-374de88899f4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7567,18 +7651,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
-			(at 188.66 -40.72 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a0dbace-2983-485d-9a94-35a54628acd9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B104KCFNNNE"
 			(at 188.66 -40.72 0)
 			(layer "F.Fab")
@@ -7591,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 188.66 -40.72 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7615,9 +7687,22 @@
 				)
 			)
 		)
+		(property "MPN" "100n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c91ff89-8db3-48d6-8b67-901ea450353e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cd9c3c41-2c67-4ab8-a440-de698454b2a0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7814,18 +7899,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
-			(at 217.34 -12.22 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d17629c-fffe-45ae-bcae-af8158497120")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B104KCFNNNE"
 			(at 217.34 -12.22 0)
 			(layer "F.Fab")
@@ -7838,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 217.34 -12.22 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7862,9 +7935,22 @@
 				)
 			)
 		)
+		(property "MPN" "100n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b358d5c-1f1b-424d-b15a-015e4086b02c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/66443054-e005-4673-a1c9-f2c846268e1f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8061,18 +8147,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
-			(at 52.26 191.9 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a6e844a-342b-4be9-805d-b28048a553a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC0805FR-072K4L"
 			(at 52.26 191.9 0)
 			(layer "F.Fab")
@@ -8097,9 +8171,22 @@
 				)
 			)
 		)
+		(property "MPN" "2.4K 1% 0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2eb456f-cca0-47c4-b1c5-04ae8ce258c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7dd6f0d1-63e4-492a-9481-3589ee146d27")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8296,9 +8383,22 @@
 				)
 			)
 		)
+		(property "MPN" " USB4085-GF-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d09f248-2a67-4734-aba8-1310155991f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/e6bac68b-5548-462e-9d9d-20d9728dfdb5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8758,18 +8858,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "220n 35V X7R 0805"
-			(at 205.19 -28.77 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "918a2266-2c45-4a90-9bd1-c76de85c045b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B224KBFNNNE"
 			(at 205.19 -28.77 0)
 			(layer "F.Fab")
@@ -8806,9 +8894,22 @@
 				)
 			)
 		)
+		(property "MPN" "220n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c49a0b3-8ba5-4c4d-a53e-7a2f53495e76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84675da3-35cb-490c-83b1-0d165ea566fc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9005,18 +9106,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "2.4K 1% 0805"
-			(at 37.88 206.28 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ef82945-35b9-40b1-8617-7b663815de16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC0805FR-072K4L"
 			(at 37.88 206.28 0)
 			(layer "F.Fab")
@@ -9041,9 +9130,22 @@
 				)
 			)
 		)
+		(property "MPN" "2.4K 1% 0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4a1da5c-3a0b-41a7-88c1-56875b173ea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c75bf54a-24e6-41fd-8e97-a289306ef83c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9240,18 +9342,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100K 1% 0805"
-			(at 194.29 -46.33 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2507f40a-ec25-447f-8ad7-ea2bc4829913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RMCF0805FT100K"
 			(at 194.29 -46.33 0)
 			(layer "F.Fab")
@@ -9276,9 +9366,22 @@
 				)
 			)
 		)
+		(property "MPN" "100K 1% 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8393b0d2-9c47-488a-97de-ff34ba09e5e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d2927bf5-62d9-4f07-af75-db6c5b5cda9b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9451,7 +9554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9475,9 +9578,22 @@
 				)
 			)
 		)
+		(property "MPN" "614004134726"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e79afc07-dc6a-4720-b187-bf5be3d1eecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/c60b0dbc-0278-4d73-a876-240c18424061")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9815,18 +9931,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "240 5% 1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2f08ac3-7d36-45c8-8014-eef0bfe26861")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RC1206JR-07240RL"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -9851,9 +9955,22 @@
 				)
 			)
 		)
+		(property "MPN" "240 5% 1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c459a9a-5d6d-4f0a-b396-4a322e8e5172")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8e332544-08dc-4695-8661-3d68f1df4d84")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10050,18 +10167,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "BSS138P,215"
-			(at 222.305 168.48 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9181b99-7b1c-49e3-827b-ae1847476062")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "BSS138P,215"
 			(at 222.305 168.48 0)
 			(layer "F.Fab")
@@ -10074,9 +10179,22 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138P,215"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e229dd1-9049-4481-8bdd-e9dd304e604b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/dabe502a-c996-496f-a1ec-4bc9d21abd40")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10315,9 +10433,22 @@
 				)
 			)
 		)
+		(property "MPN" " USB4085-GF-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4330fd83-2a12-4b53-9199-ea23a3f57461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/de2b821a-61f9-4f95-81c7-0b93c24c0388")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10777,18 +10908,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "100n 100V X7R 0805"
-			(at 203.14 -26.72 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce0c0ae0-bac7-4722-96e6-e28b7490dce5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "CL21B104KCFNNNE"
 			(at 203.14 -26.72 0)
 			(layer "F.Fab")
@@ -10801,7 +10920,7 @@
 				)
 			)
 		)
-		(property "Value2" "100V"
+		(property "Value2" "35V"
 			(at 203.14 -26.72 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10825,9 +10944,22 @@
 				)
 			)
 		)
+		(property "MPN" "100n 35V X7R 0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3bae23d-d0b4-431e-9432-5621fe287986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/799ccad6-daa6-48d0-9c6e-0db308bb1323")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11024,18 +11156,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "10K 1% 0603"
-			(at 183.72 -43.7 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "172bc938-d939-4b98-91b5-0f09c1f4d9d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "RNCP0603FTD10K0"
 			(at 183.72 -43.7 0)
 			(layer "F.Fab")
@@ -11060,9 +11180,22 @@
 				)
 			)
 		)
+		(property "MPN" "10K 1% 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a366bdc-1d5a-4bb0-b73b-fddf29b88d07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3bdeb6d7-9883-4aaf-a0ab-6aa06d8be56e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11261,9 +11394,22 @@
 				)
 			)
 		)
+		(property "MPN" "10129380-906001ALF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "820d1c46-26f6-424b-a334-8b412e53ec79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/42eda130-fa10-4779-951e-d4fd9a3b8e80")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11776,18 +11922,6 @@
 				)
 			)
 		)
-		(property "AISLER_MPN" "DMT6013LSS"
-			(at 29.29 227.44 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "153203e2-fcea-411a-a094-75d1505bb32f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PartNumber" "DMT6013LSS"
 			(at 29.29 227.44 0)
 			(layer "F.Fab")
@@ -11836,9 +11970,22 @@
 				)
 			)
 		)
+		(property "MPN" "DMT6013LSS-13"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2afbb875-49aa-4542-9f1e-7ed9c0e4e3bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LFPAK33*")
 		(path "/b6aec017-455b-4a4d-a19c-ec3aba2c92a8")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12131,7 +12278,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/b8510402-060f-4aa8-b6b7-549dfad6048e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
@@ -12228,9 +12375,22 @@
 				)
 			)
 		)
+		(property "MPN" " USB4085-GF-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de343d4c-5dd1-42e2-948c-e71d26b0a319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/78ac9495-c804-480b-bbed-d433b6810818")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12696,9 +12856,23 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1241152-6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac9e91c3-f029-4aaf-993f-df369a605253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1d193be6-8918-4406-b136-8a6b9de24fb5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "copilot-ext-3xUSB.kicad_sch")
 		(attr smd)
 		(fp_line
