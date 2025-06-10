@@ -13502,7 +13502,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Copilot Lite\n3xUSB extension\nVersion 1.0"
+	(gr_text "Copilot Lite\n3xUSB extension\nVersion 1.1"
 		(at 140.66 71.08 0)
 		(layer "F.SilkS")
 		(uuid "5d898113-ac0e-4cf2-b044-226b1e388c39")
