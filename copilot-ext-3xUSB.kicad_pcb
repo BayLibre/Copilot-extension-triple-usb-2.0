@@ -8770,7 +8770,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ee78728b-1cd0-42e0-9566-7a2271b830b9")
+			(uuid "eaddf1c4-7f81-4558-8601-c97289241d8f")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 0.98 270)
@@ -8781,7 +8781,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ee78728b-1cd0-42e0-9566-7a2271b830b9")
+			(uuid "3f56b8a2-0dec-4ea8-a65d-2c61b3ce1c2c")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 4.36 270)
@@ -8792,7 +8792,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ee78728b-1cd0-42e0-9566-7a2271b830b9")
+			(uuid "f7cda59b-115b-44f9-8c20-10059e0572fc")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
@@ -10820,7 +10820,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91758fd1-695a-4a68-bd83-37801ffc96ff")
+			(uuid "99cfdbdb-14ec-41d1-8ef7-1193ed67e2eb")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 0.98 270)
@@ -10831,7 +10831,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91758fd1-695a-4a68-bd83-37801ffc96ff")
+			(uuid "3d632e1b-caa1-4d48-b61c-298f5bd2ab12")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 4.36 270)
@@ -10842,7 +10842,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91758fd1-695a-4a68-bd83-37801ffc96ff")
+			(uuid "8838084a-1d55-4125-94de-c2e3582c2c23")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
@@ -12762,7 +12762,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "07a7d008-26bd-4ee7-8c5a-60d237f4884e")
+			(uuid "f14f415a-558a-4baa-a02e-65a7b8a2c3e5")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 0.98 270)
@@ -12773,7 +12773,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "07a7d008-26bd-4ee7-8c5a-60d237f4884e")
+			(uuid "28495165-dd50-4fa2-ac69-94d2bf2436d7")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 4.36 270)
@@ -12784,7 +12784,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "07a7d008-26bd-4ee7-8c5a-60d237f4884e")
+			(uuid "f98fb964-fac2-4c33-b86d-450f4e8e421d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/packages3D/USB4085-GF-A--3DModel-STEP-269445.STEP"
