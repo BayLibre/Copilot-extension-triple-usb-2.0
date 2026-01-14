@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "51f1329c-3b4c-49dd-b481-975314a2554f")
 	(paper "A2")
+	(title_block
+		(title "Copilot 3xUSB extension")
+		(rev "1.2")
+		(company "(C) BayLibre SAS")
+	)
 	(lib_symbols
 		(symbol "usb2-extension:+5V"
 			(power)
